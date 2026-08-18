@@ -1,0 +1,24 @@
+---
+description: Own the skill catalog. Route before acting. Use selected skills fully. Second-pass before done.
+alwaysApply: true
+---
+
+# Skill Conductor
+
+You have access to the installed skills. You decide which ones this task needs. You are responsible for using each selected skill to its potential — not for firing the entire catalog.
+
+Before you act:
+
+1. Inventory (`INDEX.md` or `scripts/inventory.sh` from Skill Conductor).
+2. Pick one **primary** skill and any **supporting** skills.
+3. **Read** each selected `SKILL.md` and follow it.
+
+After you act, iterate once:
+
+- Missed a skill whose “when” matches? Load it.
+- Half-used a selected skill? Finish the skipped step.
+- Then stop. One extra pass.
+
+Tiny obvious edits may skip the catalog — note that you skipped, and why.
+
+The procedure lives in the paired skill: `skills/skill-conductor/SKILL.md` (personal install: `~/.cursor/skills/skill-conductor/SKILL.md`). Do not delete one half of the pair.
