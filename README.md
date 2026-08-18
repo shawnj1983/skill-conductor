@@ -69,10 +69,10 @@ That symlinks the skill into `~/.cursor/skills/skill-conductor` and the rule int
 
 **Project install** (this folder is a workspace): the rule in `.cursor/rules/` already applies. Copy or add the skill under `.cursor/skills/` if you want it project-scoped too.
 
-**Other agents** (after this repo is on GitHub):
+**Other agents:**
 
 ```bash
-npx skills@latest add <your-github>/skill-conductor
+npx skills@latest add shawnj1983/skill-conductor
 ```
 
 Then copy `.cursor/rules/skill-conductor.mdc` into the project or user rules. The `npx` path copies skills; it does not always copy Cursor rules. The pair still matters.
