@@ -106,4 +106,4 @@ skill-conductor/
 
 ## License
 
-MIT. Copyright (c) 2026 Patrick Johnston.
+MIT. Copyright (c) 2026 Alfred.
